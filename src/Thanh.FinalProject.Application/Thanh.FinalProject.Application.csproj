@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Thanh.FinalProject</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Thanh.FinalProject.Domain\Thanh.FinalProject.Domain.csproj" />
+    <ProjectReference Include="..\Thanh.FinalProject.Application.Contracts\Thanh.FinalProject.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Thanh.FinalProject.EntityFrameworkCore\Thanh.FinalProject.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Protocols" Version="6.13.1" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.Dapper" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="4.4.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="4.4.3" />
+  </ItemGroup>
+
+</Project>
